@@ -6,10 +6,12 @@
     box-sizing: border-box;
 
     :root{
-        --cor-primaria: #fbd708f2;
-        --cor-secundaria: #d68d06e6;
-        --cor-terciaria: #b10202;
+        --cor-primaria: #004285;
+        --cor-secundaria: #000000;
+        --cor-terciaria: #ff0000;
+
     }
+    
 
     body{
         width: 100%;
@@ -34,7 +36,7 @@
         gap: 1.5rem;
         box-shadow: 0px 0px 10px var(--cor-primaria);
     }
-    img{
+    .foto{
         width: 250px;
         height: 250px;
 
@@ -43,7 +45,7 @@
         transition: 0.5s;
     }
 
-    img:hover {
+    .foto:hover {
         box-shadow: 0px 0px 20px var(--cor-secundaria) ;
         cursor: pointer;
         transform: scale(1.05);
@@ -52,7 +54,7 @@
     label{
         font-size: 2rem;
         font-weight: bold;
-        color: var(--cor-terciaria);
+        color: var (--cor-terciaria);
     }
     
 
